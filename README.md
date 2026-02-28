@@ -2,11 +2,11 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# MemAura 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: 
 
 ### Team Members
 - Member 1: [Name] - [College]
