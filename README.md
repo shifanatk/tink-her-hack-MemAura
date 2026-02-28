@@ -6,23 +6,23 @@
 
 ## Basic Details
 
-### Team Name: 
+### Team Name: ByteDuo
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Shifana T K - TKMCE,KOLLAM
+- Member 2: Rasheeda P V - TKMCE,KOLLAM
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+MemAura is a privacy-focused mental wellness application that features an interactive, draggable canvas for digital journaling and mood expression. It utilizes a Spring Boot backend integrated with MongoDB Atlas for secure data persistence and Google OAuth2 for seamless user authentication.
 
 ### The Problem statement
-[What problem are you solving?]
+Traditional digital journals are restricted by rigid, linear layouts that fail to mirror the fluid and spatial nature of human thought. Additionally, many wellness apps lack the necessary balance between user-friendly interaction and secure, cloud-based data privacy.
 
 ### The Solution
-[How are you solving it?]
+MemAura offers a spatial wellness experience where users can organize thoughts, images, and moods on an infinite draggable canvas. By combining a React frontend with a Spring Boot backend and MongoDB Atlas, it ensures that creative expression is backed by secure OAuth2 authentication and persistent cloud storage.
 
 ---
 
@@ -31,25 +31,20 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Languages used: Java 21, JavaScript (ES6+), HTML5, CSS3
+- Frameworks used: Spring Boot 4.0.3, React.js (Vite)
+- Libraries used: Spring Data MongoDB, Spring Security (OAuth2), Axios, Lombok, Lucide React (for icons)
+- Tools used: VS Code, Git/GitHub, MongoDB Atlas, Maven (mvnw), Postman
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Spatial Canvas Interaction
+- Feature 2: Secure Google OAuth2 Login
+- Feature 3: Persistent Cloud Storage
+- Feature 4: Real-time Data Sync
 
 ---
 
@@ -59,23 +54,15 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+./mvnw clean install
+npm install
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+./mvnw spring-boot:run
+npm run dev
 ```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
-
----
 
 ## Project Documentation
 
@@ -97,7 +84,7 @@ List the key features of your project:
 **System Architecture:**
 
 ![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+*A decoupled architecture using a React (Vite) frontend communicating via REST APIs to a Spring Boot backend.*
 
 **Application Workflow:**
 
